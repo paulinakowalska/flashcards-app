@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flashcards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://styleguide.brainly.com/134.2.1/style-guide.css" rel="stylesheet"/>
+</head>
+<body>
+<script async type="text/javascript" src="index.js"></script>
+<script async src="https://styleguide.brainly.com/images/icons-1b40deaa8d.js"></script>
+<header class="page-header">
+    <h1 class="page-header-text sg-text-bit sg-text-bit--xlarge sg-text-bit--light sg-text-bit--not-responsive">
+        Flashcards
+    </h1>
+</header>
+<div class="page-block">
+    <div id="pageBlockContent" class="page-block__content">
+        <div id="flashcard" class="flashcard">
+            <div id="flashcard-shake" class="flashcard-box sg-card sg-card--padding-large">
+                <div class="flashcard-box__hole sg-card__hole sg-card--peach-primary">
+                    <h2 id="question" class="sg-header-primary sg-header-primary--small">
+                    </h2>
+                </div>
+            </div>
+            <div class="flashcard-answers">
+                <button id="answerA" class="sg-button-primary"></button>
+                <button id="answerB" class="sg-button-primary"></button>
+            </div>
+        </div>
+        <div id="summary" class="summary-content">
+            <div class="sg-box sg-box--with-shadow">
+                <div class="sg-box__hole">
+                    <h2 class="summary-content-text sg-text-bit sg-text-bit--warning sg-text-bit--not-responsive">
+                        CONGRATULATIONS!
+                    </h2>
+                </div>
+            </div>
+            <button id="restart" class="sg-button-primary sg-button-primary--active-inverse">
+                <div class="sg-label sg-label--primary sg-label--unstyled">
+                    <div class="sg-label__icon">
+                        <svg class="sg-icon sg-icon--x18">
+                            <use xlink:href="#icon-reload"></use>
+                        </svg>
+                    </div>
+                    <label class="sg-label__text">Try again</label>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
